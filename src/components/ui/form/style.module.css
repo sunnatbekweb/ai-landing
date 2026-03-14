@@ -1,0 +1,53 @@
+.form {
+	padding: 40px 30px;
+	border-radius: 20px;
+	background-color: #fbfbfb;
+	border: 1px solid #ebebeb;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	box-shadow: 0px 3px 20px 0px #00000014;
+
+	& input,
+	& select {
+		height: 60px;
+		padding: 0 16px;
+		border-radius: 14px;
+		background-color: #eeeeee;
+		font-weight: 500;
+		font-size: 18px;
+
+		&:focus {
+			outline-color: var(--color-red);
+			background-color: var(--background);
+		}
+	}
+
+	& input[type='radio'] {
+		appearance: none;
+		width: 22px;
+		height: 22px;
+		padding: 0;
+		border: 1.5px solid var(--color-red);
+		border-radius: 50%;
+		position: relative;
+		cursor: pointer;
+
+		&::after {
+			content: '';
+			transition: all 0.2s;
+			width: 14px;
+			height: 14px;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: var(--color-red);
+			transform: translateY(-50%) translateX(-50%) scale(0);
+		}
+
+		&:checked::after {
+			transform: translateY(-50%) translateX(-50%) scale(1);
+		}
+	}
+}
