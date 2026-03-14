@@ -43,4 +43,21 @@ button {
 	border-radius: 15px;
 }
 
+.button {
+	width: fit-content;
+	height: 48px;
+	padding: 0 30px;
+	border-radius: 10px;
+	line-height: 100%;
+	color: var(--background);
+	background-color: var(--color-red);
+	box-shadow: 0px 5px 44px 0px #ff000080;
+	width: 100%;
+	margin: 0 auto;
+}
 
+@media (min-width: 640px) {
+	.button {
+		width: fit-content;
+	}
+}

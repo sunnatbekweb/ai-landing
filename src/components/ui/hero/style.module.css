@@ -7,7 +7,7 @@
 	background-position-x: center;
 }
 
-.hero_image::before {
+/* .hero_image::before {
 	content: '';
 	width: 50%;
 	height: 100%;
@@ -25,7 +25,7 @@
 	top: 0;
 	right: 0;
 	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 70%, #ffffff 100%);
-}
+} */
 
 .button {
 	width: fit-content;

@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 export const Header = () => {
@@ -11,9 +12,7 @@ export const Header = () => {
 					AI FOR VISUALS
 				</Link>
 				<Link href="#contact">
-					<button className="h-11 px-5 rounded-[10px] bg-red leading-[100%] text-white">
-						Ro’yhatdan o’tish
-					</button>
+					<Button>Ro’yhatdan o’tish</Button>
 				</Link>
 			</div>
 		</header>

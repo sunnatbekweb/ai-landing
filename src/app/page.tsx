@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Form } from '@/components/ui/form'
 import { Hero } from '@/components/ui/hero'
@@ -26,6 +27,11 @@ export default function Home() {
 								item={item}
 							/>
 						))}
+					</div>
+					<div className="flex justify-center mt-10">
+						<Button className="shadow-[0px_5px_44px_0px_#ff000080]">
+							Batafsil ma&#39;lumot
+						</Button>
 					</div>
 				</div>
 			</section>

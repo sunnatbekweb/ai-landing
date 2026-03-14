@@ -14,11 +14,13 @@
 		padding: 0 16px;
 		border-radius: 14px;
 		background-color: #eeeeee;
-		font-weight: 500;
 		font-size: 18px;
+		border: 1px solid transparent;
+		transition: background, border 0.3s;
 
 		&:focus {
-			outline-color: var(--color-red);
+			outline: none;
+			border-color: var(--color-red);
 			background-color: var(--background);
 		}
 	}
@@ -32,6 +34,7 @@
 		border-radius: 50%;
 		position: relative;
 		cursor: pointer;
+		background-color: var(--background);
 
 		&::after {
 			content: '';
