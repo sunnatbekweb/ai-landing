@@ -44,14 +44,12 @@ export default function Home() {
 						<h2 className="font-semibold text-3xl lg:text-[42px] text-red leading-normal text-center lg:text-start">
 							Sun’iy Intellekt Kursiga Yoziling
 						</h2>
-						<p className="text-lg text-[#797676] text-center lg:text-start mt-6 max-w-105">
+						<p className="text-lg text-[#797676] text-center lg:text-start mt-6 max-w-105 mx-auto lg:mx-0">
 							Sun’iy intellekt yordamida kontent yaratish va daromad topish
 							ko‘nikmalarini o‘rganing.
 						</p>
 					</div>
-					<div className="">
-						<Form />
-					</div>
+					<Form />
 				</div>
 			</section>
 		</main>

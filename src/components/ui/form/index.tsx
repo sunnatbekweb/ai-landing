@@ -112,7 +112,7 @@ export const Form = () => {
 					</label>
 				</div>
 			</div>
-			<button className="h-12.5 lg:h-15 rounded-[14px] bg-red font-medium text-white mt-1.5">
+			<button className="h-12.5 rounded-[14px] bg-red font-medium text-white mt-1.5">
 				Yuborish
 			</button>
 		</form>

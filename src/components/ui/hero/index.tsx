@@ -15,7 +15,7 @@ export const Hero = () => {
 						va reklama kontentlarini AI orqali professional darajada ishlab
 						chiqishni o&#39;rganasiz.
 					</p>
-					<Button className="shadow-[0px_5px_44px_0px_#ff000080]">
+					<Button className="shadow-[0px_5px_44px_0px_#ff000080] mx-auto lg:m-0">
 						Batafsil ma&#39;lumot
 					</Button>
 				</div>
